@@ -1,0 +1,22 @@
+<!-- views/index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOM - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>STOM - Loja de Peças para Computador</h1>
+    <ul>
+        <% products.forEach(product => { %>
+            <li>
+                <h2><%= Placa Mãe Gigabyte B550M Aorus Elite %></h2>
+                <p><%= product.description %></p>
+                <a href="product-2.html">Ver detalhes</a>
+            </li>
+        <% }) %>
+    </ul>
+</body>
+</html>
